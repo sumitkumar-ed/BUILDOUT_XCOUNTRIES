@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px; /* Fixed width for all cards */
+  height: 150px; /* Fixed height for all cards */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.card img.flag {
+  width: 100px; /* Fixed width for flag images */
+  height: 70px; /* Fixed height for flag images */
+  object-fit: contain; /* Ensure the image fits within the specified dimensions */
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}

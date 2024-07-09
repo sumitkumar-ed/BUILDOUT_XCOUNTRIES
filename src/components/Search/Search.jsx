@@ -6,7 +6,7 @@ const Search = ({ searchQuery, setSearchQuery }) => {
     <div className="search">
       <input
         type="text"
-        placeholder="Search for a country..."
+        placeholder="Search for countries"
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
       />
